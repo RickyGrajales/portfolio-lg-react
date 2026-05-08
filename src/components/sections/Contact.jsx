@@ -33,7 +33,7 @@ const SOCIAL_LINKS = [
   },
   {
     label: "WhatsApp",
-    href: "https://wa.me/573001234567?text=Hola%20Luis,%20vi%20tu%20portafolio%20y%20quiero%20hablar%20contigo",
+    href: "https://wa.me/573160976523?text=Hola%20Luis,%20vi%20tu%20portafolio%20y%20quiero%20hablar%20contigo",
     icon: (
       <>
         <path d="M20.52 3.48A11.86 11.86 0 0012.04 0C5.4 0 .04 5.36.04 12c0 2.12.56 4.2 1.62 6.03L0 24l6.17-1.61A11.94 11.94 0 0012.04 24C18.68 24 24 18.64 24 12c0-3.2-1.25-6.2-3.48-8.52z" />
