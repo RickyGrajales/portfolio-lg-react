@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useScrolled } from '../../hooks/useScrolled';
+import { useScrolled } from '../../hooks/UseScrolled';
 
 const NAV_LINKS = [
   { label: "Sobre mí", href: "#about" },
