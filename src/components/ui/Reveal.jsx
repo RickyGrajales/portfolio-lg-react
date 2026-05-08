@@ -1,4 +1,4 @@
-import { useReveal } from '../../hooks/useReveal';
+import { useReveal } from '../../hooks/UseReveal';
 
 export function Reveal({ children, delay = 0, style = {} }) {
   const [ref, visible] = useReveal();
