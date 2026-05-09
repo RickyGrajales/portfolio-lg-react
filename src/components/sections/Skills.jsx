@@ -10,13 +10,13 @@ export function Skills() {
         <h2
           style={{
             fontFamily: "var(--serif)",
-            fontSize: "clamp(2.4rem,5vw,4.5rem)",
-            fontWeight: 700,
+            fontSize: "clamp(1.5rem,3.5vw,3.5rem)",
+            fontWeight: 600,
             lineHeight: 1.05,
             marginBottom: 0
           }}
         >
-          Stack que <em style={{ fontStyle: "italic", color: "var(--gold)", fontWeight: 400 }}>domino</em>
+          Tecnologías y herramientas que uso <br /> <em style={{ fontStyle: "italic", color: "var(--gold)", fontWeight: 400 }}>para construir soluciones reales</em>
         </h2>
       </Reveal>
 

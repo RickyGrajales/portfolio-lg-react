@@ -12,19 +12,19 @@ export function About() {
                     <h2
                         style={{
                             fontFamily: "var(--serif)",
-                            fontSize: "clamp(2.4rem,5vw,4.5rem)",
-                            fontWeight: 700,
+                            fontSize: "clamp(1.4rem,3.5vw,4.8rem)",
+                            fontWeight: 600,
                             lineHeight: 1.05,
                             marginBottom: "2rem"
                         }}
                     >
-                        Desarrollador con<br />visión de <em style={{ fontStyle: "italic", color: "var(--gold)", fontWeight: 400 }}>diseñador</em>
+                        Ingeniería,<br />Automatización y <em style={{ fontStyle: "italic", color: "var(--gold)", fontWeight: 400 }}>Productos Digitales con Impacto</em>
                     </h2>
                     <p style={{ fontSize: "1rem", lineHeight: 2, color: "var(--muted)", marginBottom: "1.4rem" }}>
-                        Soy Luis Grajales, desarrollador web apasionado por crear productos digitales que van más allá de lo funcional. Creo que la diferencia entre un buen producto y uno extraordinario está en los detalles.
+                        Soy Luis Grajales, desarrollador de software enfocado en construir soluciones web, sistemas empresariales y automatizaciones que optimizan procesos y mejoran la operación de negocios.
                     </p>
                     <p style={{ fontSize: "1rem", lineHeight: 2, color: "var(--muted)", marginBottom: "1.4rem" }}>
-                        Mi enfoque combina sólidas bases técnicas con una sensibilidad estética cuidada. Disfruto cada etapa: arquitectura, desarrollo, diseño y la satisfacción de ver el producto final en manos de los usuarios.
+                        Trabajo desde la arquitectura hasta la implementación, combinando frontend, backend, bases de datos e integraciones para transformar necesidades reales en productos digitales funcionales y escalables.
                     </p>
                     <blockquote
                         style={{
@@ -39,7 +39,7 @@ export function About() {
                             opacity: 0.9
                         }}
                     >
-                        "El código es poesía.<br />Cada línea cuenta una historia."
+                       "Construir software no es solo programar; <br />es resolver problemas de forma inteligente."
                     </blockquote>
                     <a
                         href="#contact"

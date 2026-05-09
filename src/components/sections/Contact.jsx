@@ -33,14 +33,14 @@ const SOCIAL_LINKS = [
   },
   {
     label: "WhatsApp",
-    href: "https://wa.me/573160976523?text=Hola%20Luis,%20vi%20tu%20portafolio%20y%20quiero%20hablar%20contigo",
+    href: "https://wa.me/573001234567?text=Hola%20Luis,%20vi%20tu%20portafolio%20y%20quiero%20hablar%20contigo",
     icon: (
       <>
         <path d="M20.52 3.48A11.86 11.86 0 0012.04 0C5.4 0 .04 5.36.04 12c0 2.12.56 4.2 1.62 6.03L0 24l6.17-1.61A11.94 11.94 0 0012.04 24C18.68 24 24 18.64 24 12c0-3.2-1.25-6.2-3.48-8.52z" />
         <path d="M17.5 14.2c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.28-.47-2.43-1.5-.9-.8-1.5-1.8-1.67-2.1-.17-.3-.02-.47.13-.62.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.48-.5-.67-.5h-.57c-.2 0-.52.08-.8.37-.27.3-1.05 1.02-1.05 2.47s1.08 2.87 1.23 3.07c.15.2 2.13 3.25 5.17 4.55.72.3 1.28.47 1.72.6.72.23 1.37.2 1.88.12.57-.08 1.76-.72 2-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" />
       </>
     )
-}
+  }
 ];
 
 export function Contact() {
@@ -72,7 +72,7 @@ export function Contact() {
           }}
         />
       ))}
-      
+
       <Reveal
         style={{
           position: "relative",
@@ -101,7 +101,7 @@ export function Contact() {
             marginBottom: "3rem"
           }}
         >
-          Estoy disponible para proyectos freelance, colaboraciones y oportunidades de trabajo. Hablemos y construyamos algo increíble juntos.
+          Disponible para desarrollo de software, automatización de procesos, soluciones web y colaboraciones tecnológicas. Si tienes una idea o necesitas optimizar tu operación, conversemos.
         </p>
         <a
           href="mailto:novacoresoft@gmail.com"

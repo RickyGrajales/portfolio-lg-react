@@ -47,14 +47,14 @@ export function Hero() {
               color: "var(--gold)"
             }}
           >
-            Desarrollador Web · Cali, Colombia
+            Software Developer · Web Solutions · Automation
           </span>
         </div>
 
         <h1
           style={{
             fontFamily: "var(--serif)",
-            fontSize: "clamp(3rem,9vw,9rem)",
+            fontSize: "clamp(3rem,8vw,8rem)",
             fontWeight: 600,
             lineHeight: 0.9,
             marginBottom: "2.5rem",
@@ -79,8 +79,7 @@ export function Hero() {
             animation: "fadeUp 0.9s 0.7s forwards"
           }}
         >
-          Construyo experiencias digitales que combinan diseño refinado con código limpio y escalable. Cada proyecto es una oportunidad de crear algo memorable.
-        </p>
+          Desarrollo software, automatización y soluciones web escalables para empresas y emprendedores. Construyo sistemas eficientes, experiencias digitales sólidas e integraciones que optimizan procesos y generan resultados.        </p>
 
         <div
           style={{
@@ -117,6 +116,38 @@ export function Hero() {
             }}
           >
             Ver proyectos
+          </a>
+
+          <a
+            href="/LuisGrajales_cv.pdf"
+            download
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.6rem",
+              padding: "1rem 2.5rem",
+              background: "transparent",
+              border: "1px solid var(--gold)",
+              color: "var(--gold)",
+              fontSize: "0.8rem",
+              fontWeight: 500,
+              letterSpacing: "0.15em",
+              textTransform: "uppercase",
+              textDecoration: "none",
+              transition: "all 0.3s"
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "var(--gold)";
+              e.currentTarget.style.color = "#080808";
+              e.currentTarget.style.transform = "translateY(-3px)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "transparent";
+              e.currentTarget.style.color = "var(--gold)";
+              e.currentTarget.style.transform = "translateY(0)";
+            }}
+          >
+            Descargar CV
           </a>
           <a
             href="#contact"
@@ -178,7 +209,7 @@ export function Hero() {
             writingMode: "vertical-rl"
           }}
         >
-          
+
         </span>
       </div>
     </section>

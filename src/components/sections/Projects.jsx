@@ -14,13 +14,13 @@ export function Projects() {
         <h2
           style={{
             fontFamily: "var(--serif)",
-            fontSize: "clamp(2.4rem,5vw,4.5rem)",
-            fontWeight: 700,
+            fontSize: "clamp(2.4rem,4vw,4.5rem)",
+            fontWeight: 600,
             lineHeight: 1.05,
             marginBottom: 0
           }}
         >
-          Trabajo <em style={{ fontStyle: "italic", color: "var(--gold)", fontWeight: 400 }}>seleccionado</em>
+          Soluciones construidas <br/> <em style={{ fontStyle: "italic", color: "var(--gold)", fontWeight: 400 }}>para resolver problemas reales</em>
         </h2>
       </Reveal>
 
