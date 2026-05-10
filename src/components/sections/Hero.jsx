@@ -32,8 +32,10 @@ export function Hero() {
           style={{
             display: "flex",
             alignItems: "center",
-            gap: "1.5rem",
+            gap: "4.5rem",
+            flexWrap: "wrap",
             marginBottom: "2rem",
+            maxWidth: "100%",
             opacity: 0,
             animation: "fadeUp 0.9s 0.3s forwards"
           }}
@@ -41,10 +43,11 @@ export function Hero() {
           <div style={{ width: 50, height: 1, background: "var(--gold)" }} />
           <span
             style={{
-              fontSize: "0.75rem",
-              letterSpacing: "0.3em",
+              fontSize: "clamp(0.6rem, 2vw, 0.75rem",
+              letterSpacing: "0.18em",
               textTransform: "uppercase",
-              color: "var(--gold)"
+              color: "var(--gold)",
+              lineHeight: 1.6
             }}
           >
             Software Developer · Web Solutions · Automation
