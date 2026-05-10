@@ -174,7 +174,7 @@ export function Hero() {
               e.currentTarget.style.color = "var(--white)";
             }}
           >
-            Hablemos
+            Contáctame
           </a>
         </div>
       </div>
